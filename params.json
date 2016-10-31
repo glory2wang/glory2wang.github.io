@@ -1,0 +1,6 @@
+{
+  "name": "page name",
+  "tagline": "tagline",
+  "body": "line1# \r\nline2## \r\nline3 ### \r\n\r\n1. body1\r\nbody2\r\nbody3\r\nbody4\r\nbody5\r\nbody6\r\n\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
