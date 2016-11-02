@@ -1,6 +1,6 @@
 {
   "name": "page name",
   "tagline": "tagline",
-  "body": "学习java 1.8 stream# \r\n`Stream<List<Integer>> inputStream = Stream.of(\r\n                Arrays.asList(1),\r\n                Arrays.asList(2, 3),\r\n                Arrays.asList(4, 5, 6)\r\n        );\r\n        Stream<Integer> outputStream = inputStream.flatMap((childList) -> childList.stream());\r\n        List<Integer> collect = outputStream.collect(Collectors.toList());\r\n        System.out.println(collect);`\r\n",
+  "body": "# 学习java 1.8 stream\r\n`Stream<List<Integer>> inputStream = Stream.of(\r\n                Arrays.asList(1),\r\n                Arrays.asList(2, 3),\r\n                Arrays.asList(4, 5, 6)\r\n        );\r\n        Stream<Integer> outputStream = inputStream.flatMap((childList) -> childList.stream());\r\n        List<Integer> collect = outputStream.collect(Collectors.toList());\r\n        System.out.println(collect);`\r\n",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
