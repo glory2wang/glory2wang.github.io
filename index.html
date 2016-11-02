@@ -37,14 +37,18 @@
           <h1>
 <a id="学习java-18-stream" class="anchor" href="#%E5%AD%A6%E4%B9%A0java-18-stream" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>学习java 1.8 stream</h1>
 
-<p><code>Stream&lt;List&lt;Integer&gt;&gt; inputStream = Stream.of(
+<p>`Stream&gt; inputStream = Stream.of(
                 Arrays.asList(1),
                 Arrays.asList(2, 3),
                 Arrays.asList(4, 5, 6)
-        );
-        Stream&lt;Integer&gt; outputStream = inputStream.flatMap((childList) -&gt; childList.stream());
-        List&lt;Integer&gt; collect = outputStream.collect(Collectors.toList());
-        System.out.println(collect);</code></p>
+        );</p>
+
+<pre><code>    Stream&lt;Integer&gt; outputStream = inputStream.flatMap((childList) -&gt; childList.stream());
+
+    List&lt;Integer&gt; collect = outputStream.collect(Collectors.toList());
+
+    System.out.println(collect);`
+</code></pre>
         </article>
       </div>
     </div>
