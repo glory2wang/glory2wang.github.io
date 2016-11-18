@@ -1,6 +1,6 @@
 {
   "name": "java学习",
   "tagline": "stream",
-  "body": "# 学习java 1.8 stream\r\n`Stream<List<Integer>> inputStream = Stream.of(\r\n                Arrays.asList(1),\r\n                Arrays.asList(2, 3),\r\n                Arrays.asList(4, 5, 6)\r\n        );\r\n\r\n        Stream<Integer> outputStream = inputStream.flatMap((childList) -> childList.stream());\r\n\r\n        List<Integer> collect = outputStream.collect(Collectors.toList());\r\n\r\n        System.out.println(collect);`\r\n[stream学习参考链接-并发编程网](http://ifeve.com/stream/)\r\n\r\n[xmemcache在github链接](https://github.com/killme2008/xmemcached/wiki)\r\n\r\n[java小强博客地址](http://www.javacui.com/)\r\n\r\n\r\n",
+  "body": "# 学习java 1.8 stream\r\n`Stream<List<Integer>> inputStream = Stream.of(\r\n                Arrays.asList(1),\r\n                Arrays.asList(2, 3),\r\n                Arrays.asList(4, 5, 6)\r\n        );\r\n\r\n        Stream<Integer> outputStream = inputStream.flatMap((childList) -> childList.stream());\r\n\r\n        List<Integer> collect = outputStream.collect(Collectors.toList());\r\n\r\n        System.out.println(collect);`\r\n[stream学习参考链接-并发编程网](http://ifeve.com/stream/)\r\n\r\n[xmemcache在github链接](https://github.com/killme2008/xmemcached/wiki)\r\n\r\n[java小强博客地址](http://www.javacui.com/)\r\n\r\n[java书推荐页面地址](http://www.tuicool.com/articles/N3eAFne)\r\n\r\n\r\n",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
